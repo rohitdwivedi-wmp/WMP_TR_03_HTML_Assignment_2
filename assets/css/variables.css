@@ -1,0 +1,36 @@
+:root{
+    --nav-bg-color : #1E1E1E;
+    --main-font : "Inter", sans-serif;
+    --gray-color : #878787;
+    --btn-bg-color : #6D6D6D;
+    --mobile-nav-bg: #c2c2f3;
+    --btn-color : #000000;
+    --btn-active-bg: #FEDA0A;
+    --main-bg-color: #101113;
+    --main-heading-color: #FFFFFF;
+    --skill-bg-color: #000000;
+    --service-bg-color: #1E1E1E;
+    --flip-hover-color: #850814;
+
+    --normal-font-size: 1rem;
+    --md-font-size : 1.2rem;
+    --bigger-md-font-size: 1.6rem;
+    --xmd-font-size : 1.8rem;
+    --xxmd-font-size: 2.1rem;
+    --xxxmd-font-size: 2.4rem;
+    --lg-font-size : 3rem;
+    --xlg-font-size: 3.3rem;
+    --xxlg-font-size: 3.5rem;
+
+    
+    --very-small-margin: 2.6rem 0rem;
+    --s-margin : 3rem 0rem;
+    --md-margin: 5rem 0rem;
+    --portfolio-box-margin: 10rem 0rem;
+    --certificate-box-padding: 7rem 0rem;
+
+    --very-smalll-padding: .1rem 1rem;
+    --md-padding: 2.25rem 7rem;
+    --box-padding: 2rem 0rem;
+
+}

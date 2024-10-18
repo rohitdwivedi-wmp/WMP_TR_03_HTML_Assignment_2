@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Nabar Start -->
+    <header>
+        <nav class="flex space-btw outer-container text-center">
+            <div><img src="./assets/images/logo.png" alt=""></div>
+            <div class="flex space-btw nav-all-btn nav-item">
+                <li class="md-font nav-active gray-text">Home</li>
+                <li class="md-font nav-active gray-text">Portfolio</li>
+                <li class="md-font nav-active gray-text">Services</li>
+                <li class="md-font nav-active gray-text">Contact</li>
+            </div>
+            <button class="nav-item md-font btn w-600 active">Let's Talk.</button>
+            <i id="menu-btn" class="fas fa-bars white-text"></i>
+        </nav>
+        <div id="mobile-view-nav" class="menu-show menu-active">
+            <div id="main-mobile-view" class="flex text-center">
+                <li class="mobile-nav-item"><a href="">Home</a></li>
+                <li class="mobile-nav-item"><a href="">Portfolio</a></li>
+                <li class="mobile-nav-item"><a href="">Services</a></li>
+                <li class="mobile-nav-item"><a href="">Contact</a></li>
+                <li class="mobile-nav-item login"><a href="">Contact</a></li>
+                <li id="contact-btn" class="mobile-nav-item"><a href="">Let's Talk. </a></li>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Main Content Start -->
+    <main class="">
+
+        <!-- Profile Section Start -->
+        <section id="profile" class="flex outer-container">
+            <div class="profile-detail space-around">
+                <h1 class="w-700 white-text">HEY, I’M <span class="yellow-text">John Doe</span>, A <br>Creative UI/UX DESIGNER.</h1>
+                <p class="gray-text w-400">Hello, I'm John Doe, a UI/UX designer from Pakistan. I have more than one year of experience in designing websites and apps. I've got certificates from Google, and I've worked on creating and improving many websites and apps on my own.</p>
+                <button class="md-font btn w-600 active">About Me.</button>
+            </div>
+            <div class="profile-image flex">
+                <img src="./assets/images/profile-image.png" alt="Loading..">
+            </div>
+        </section>
+        <!-- Profile Section End -->
+
+        <!-- Skill Section Start -->
+        <section id="skill-container" class="flex space-around flex-wrap ">
+            <div class="skill white-text flex text-center">
+                <img src="./assets/images/star.png" alt="Loading.." class="skill-img">
+                <h1 class="w-500">UI/UX Designer</h1>
+            </div>
+            <div class="skill white-text flex text-center">
+                <img src="./assets/images/star.png" alt="Loading.." class="skill-img">
+                <h1 class="w-500">Social Media</h1>
+            </div>
+            <div class="skill white-text flex text-center ">
+                <img src="./assets/images/star.png" alt="Loading.." class="skill-img">
+                <h1 class="w-500">Graphic Design</h1>
+            </div>
+            <span class="skill white-text flex text-center ">
+                <img src="./assets/images/star.png" alt="Loading.." class="skill-img">
+                <h1 class="w-500">Video Editing</h1>
+            </span>
+        </section>
+        <!-- Skill Section End -->
+
+        <!-- Services Section Start -->
+         <section id="service-container" class="outer-container">
+            <div id="service-detail">
+                <h1 class="white-text w-700">Services</h1>
+                <p class="gray-text w-400">Here are the services I offer to you.</p>
+            </div>
+            <div class="all-services white-text flex space-btw flex-wrap">
+                <div class="service w-700 flex center text-center active">UI/UX Designing</div>
+                <div class="service w-700 flex center text-center active">App UI/UX</div>
+                <div class="service w-700 flex center text-center active">Video Editing</div>
+                <div class="service w-700 flex center text-center active">Graphic Design</div>
+                <div class="service w-700 flex center text-center active">Social Media </div>
+                <div class="service w-700 flex center text-center active">Landing Pages Design</div>
+            </div>
+
+         </section>
+        <!-- Services Section End -->
+
+        <!-- Portfolio Section Start -->
+         <section id="porfolio-container" class="outer-container">
+            <div id="service-detail">
+                <h1 class="white-text w-700">Portfolio</h1>
+                <p class="gray-text w-400">Click the cards to view portfolios in the related category.</p>
+            </div>
+            <div id="portfolio-id" class="gray-text flex space-btw ">
+                <div class="box active">
+                    <img class="box-img" src="./assets/images/ui-ux-png.png" alt="Loading..">
+                    <h3 class="box-inside-padding w-500">UI/UX Design</h3>
+                    <p class="box-inside-padding box-1">I create stunning designs for your UI/UX projects. I can handle any project related to landing page design, e-commerce designs, portfolios, business websites, and more according to your requirements.</p>
+                </div>
+                <div class="box active">
+                    <img class="box-img" src="./assets/images/graphic.png" alt="Loading..">
+                    <h3 class="box-inside-padding">Graphic Design</h3>
+                    <p class="box-inside-padding  box-1">I provide amazing and professional graphic assets for your project, such as social media post design, logo creation, posters, thumbnails, blog graphics, product label design, and many more categories, tailored to your specific requirements. Let me enhance your visual identity with creative and impactful designs.</p>
+                </div>
+                <div class="box active">
+                    <img class="box-img" src="./assets/images/social media.png" alt="Loading..">
+                    <h3 class="box-inside-padding">Social Media</h3>
+                    <p class="box-inside-padding  box-1">Quality social media post designs are essential for promoting your business online. I specialize in creating engaging and eye-catching posts tailored to your brand. From promotional graphics to event updates, my designs aim to captivate your audience and strengthen your brand identity. Let me help enhance your social media presence with effective visual communication.</p>
+                </div>
+            </div>
+         </section>
+         <!-- Portfolio Section End -->
+
+         <!-- Certificate Section Start -->
+         <section id="certificate" class="outer-container">
+            <div id="service-detail">
+                <h1 class="white-text w-700">Certificates</h1>
+                <p class="gray-text w-400">Here are the certificates I have earned.</p>
+            </div>
+            <div id="certificate-container" class="gray-text ">
+                <div class="box certificate-box  flip-card">
+                    <div class="front certificate-box">
+                        <img class="certificate-img" src="./assets/images/google.png" alt="Loading..">
+                        <h2 class="w-700">Google</h2>
+                    </div>
+                    <div class="back flex">
+                        <h2 class="w-700">Google</h2>
+                        <h2 class="w-700">Foundations of User Experience(UX) Design</h2>
+                    </div>
+                </div>
+                <div class="box certificate-box flip-card">
+                    <div class="front certificate-box">
+                        <img class="certificate-img" src="./assets/images/great learning.png" alt="Loading..">
+                        <h2 class="w-700">Great Learning</h2>
+                    </div>
+                    <div class="back flex">
+                        <h2 class="w-700">Great Learning</h2>
+                        <h2 class="w-700">UI/UX For Begginers</h2>
+                    </div>
+                </div>
+                <div class="box certificate-box  flip-card">
+                    <div class="front certificate-box">
+                        <img class="certificate-img" src="./assets/images/canva.png" alt="Loading..">
+                        <h2 class="w-700">Canva</h2>
+                    </div>
+                    <div class="back flex">
+                        <h2 class="w-700">Canva</h2>
+                        <h2 class="w-700">Create Eye Catching Logos using Canva</h2>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- Certificate Section End -->
+    </main>
+    <!-- Main Content Start -->
+
+    <!-- Footer Start -->
+    <footer class="">
+        <div id="footer" class="footer-container flex space-btw flex-wrap">
+            <div class="f-logo flex space-btw ">
+                <div class="flex center"><img src="./assets/images/logo.png" alt="Logo.."></div>
+                <div class="f-btn flex center gray-text active">Contact Us</div>
+            </div>
+            <div class="f-buttons flex space-around gray-text w-500 footer-left-border ">
+                <li>HOME</li>
+                <li>WORK</li>
+                <li>BLOG</li>
+                <li>ABOUT</li>
+            </div>
+            <div class="f-icons flex space-around footer-left-border ">
+                <img src="./assets/images/facebook.png" alt="Loading..">
+                <img src="./assets/images/linkedin.png" alt="Loading..">
+                <img src="./assets/images/instagram.png" alt="Loading..">
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
